@@ -43,9 +43,12 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>NEXT</summary>
+  <summary>REACT</summary>
   <ul>
-    <li><a href="https://webpack.js.org">NEXT</a></li>
+  </ul>
+   <li><a href="https://webpack.js.org">HTML</a></li>
+  </ul>
+   <li><a href="https://webpack.js.org">CSS</a></li>
   </ul>
 </details>
 
