@@ -11,7 +11,7 @@ function CalculatorUI() {
 
   const handleChange = (obj, button) => {
     const newObj = calculate(obj, button);
-    setData(newObj);
+    setData(newObj); 
   };
   function Buttons(prop) {
     const { digit, name } = prop;
