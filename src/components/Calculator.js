@@ -24,7 +24,7 @@ function CalculatorUI() {
 
         <p className="number">{data.next || data.total || '0'}</p>
       </div>
-      <di4 className="buttons">
+      <div className="buttons">
         <Buttons digit="AC" name="AC" />
         <Buttons digit="±" name="+/-" />
         <Buttons digit="%" name="%" />
@@ -44,7 +44,7 @@ function CalculatorUI() {
         <Buttons digit="0" name="0" />
         <Buttons digit="." name="." />
         <Buttons digit="=" name="=" />
-      </di4>
+      </div>
     </div>
   );
 }
