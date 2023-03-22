@@ -2,33 +2,62 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-image: url(../graphics/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.493);
+}
+
 .container {
   width: 24vw;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
+
 }
 
 .screen {
   box-sizing: border-box;
   padding: 28px;
-  background-color: #868492;
+  background-color: #86849271;
   position: relative;
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  color: #fff;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap:1px;
+  background-color: #00000000;
 }
 
 .button {
-  border: 0.5px solid #bebebe;
   font-size: 0.8rem;
   text-align: center;
   padding: 16px 10px;
   font-weight: 500;
   user-select: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.247);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  color: #fff;
 }
 
 .number {
@@ -45,11 +74,11 @@
 .button:nth-child(12),
 .button:nth-child(16),
 .button:nth-child(19) {
-  background-color: #ff8c4e;
+  background-color: rgba(252, 134, 0, 0.329);
 }
 
 .button:active {
-  background-color: #8f8f8f;
+  background-color: #ffffff6c;
 }
 
 .button:nth-child(17) {
@@ -61,5 +90,15 @@
 .button:nth-child(12):active,
 .button:nth-child(16):active,
 .button:nth-child(19):active {
-  background-color: #f5600f;
+  background-color: rgba(252, 134, 0, 0.479);
+}
+
+.quotes {
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.author {
+  text-align: end;
 }

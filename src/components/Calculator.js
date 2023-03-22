@@ -1,6 +1,7 @@
 import './component.css';
 import { useState } from 'react';
 import calculate from '../logic/calculate';
+import CommentSpace from './getQuotes';
 
 function CalculatorUI() {
   const [data, setData] = useState({
@@ -45,6 +46,7 @@ function CalculatorUI() {
         <Buttons digit="." name="." />
         <Buttons digit="=" name="=" />
       </div>
+      <CommentSpace />
     </div>
   );
 }
