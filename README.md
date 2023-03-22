@@ -51,9 +51,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Ability to add and mark items as done]**
-- **[You can edit your already listed items]**
-- **[A reload button to refresh your list]**
+- **[Ability to calculate numbers]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +90,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/calebchris000/Capstone-TV-Series.git && cd Capstone-TV-Series
+  git clone https://github.com/calebchris000/Math-Magicians.git && cd Math-Magicians
 ```
 
 ### Install
