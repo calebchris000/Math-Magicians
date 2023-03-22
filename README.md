@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://calebchris000.github.io/Capstone-TV-Series/dist/)
+- [Live Demo Link](https://calebchris000.github.io/Math-Magicians/build/)
 
 - [Project Presentation](https://drive.google.com/file/d/1QMSr8ItGrPpVMQRhIZoEizkLZNVEUp37/view?usp=sharing)
 
@@ -129,7 +129,7 @@ To run the project, execute the following command:
 ```
 ### Deployment
 
-The project has been deployed with Github pages. You can visit the link [here](https://calebchris000.github.io/Capstone-TV-Series/dist/)
+The project has been deployed with Github pages. You can visit the link [here](https://calebchris000.github.io/Math-Magicians/build/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,10 +143,6 @@ The project has been deployed with Github pages. You can visit the link [here](h
 - Twitter: [@twitterhandle](https://twitter.com/calebchris000)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
 
-👤 **Ikoote Rasuli**
-
-- GitHub: [@githubhandle](https://github.com/ikoote1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ikoote-rasuli-479545246/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
