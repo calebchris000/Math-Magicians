@@ -27,7 +27,6 @@ body::after {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-
 }
 
 .screen {
@@ -43,8 +42,8 @@ body::after {
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap:1px;
-  background-color: #00000000;
+  gap: 1px;
+  background-color: #0000;
 }
 
 .button {
