@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const CommentSpace = () => {
   const [quote, setQuote] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const api = 'https://api.api-ninjas.com/v1/quotes?category=computers';
@@ -22,6 +22,10 @@ const CommentSpace = () => {
       .then((data) => {
         setQuote(data);
         setLoading(false);
+      })
+      .catch((error) => {
+        setError(error);
+        setLoading(false);
       });
   }, []);
 
@@ -35,9 +39,16 @@ const CommentSpace = () => {
   if (error) {
     return (
       <div className="quotes">
-        <p className="author">Sorry, an error occurred</p>
+        <p className="author">
+          Sorry, an error occurred:
+          {error.message}
+        </p>
       </div>
     );
+  }
+
+  if (quote === []) {
+    return null;
   }
   return (
     <div className="quotes">
