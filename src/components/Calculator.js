@@ -1,7 +1,7 @@
-import './component.css';
+import './Calculator.css';
 import { useState } from 'react';
 import calculate from '../logic/calculate';
-import CommentSpace from './getQuotes';
+import SubHeader from '../home/subHeader';
 
 function CalculatorUI() {
   const [data, setData] = useState({
@@ -21,6 +21,7 @@ function CalculatorUI() {
 
   return (
     <div className="main">
+      <SubHeader text="Let do some math!" />
       <div className="container">
         <div className="screen">
 
@@ -47,7 +48,6 @@ function CalculatorUI() {
           <Buttons digit="." name="." />
           <Buttons digit="=" name="=" />
         </div>
-        <CommentSpace />
       </div>
     </div>
 
