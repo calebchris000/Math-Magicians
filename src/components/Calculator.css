@@ -23,9 +23,7 @@ body::after {
 .container {
   width: 24vw;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 80px;
   z-index: 2;
 }
 
@@ -96,8 +94,14 @@ body::after {
   color: #fff;
   font-weight: 400;
   font-style: italic;
+  width: 40vw;
+  margin: 200px auto;
 }
 
+/* .quoteWrapper {
+  margin: 0 auto;
+} */
+
 .author {
-  text-align: end;
+  text-align: center;
 }

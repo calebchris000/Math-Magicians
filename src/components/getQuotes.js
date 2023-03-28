@@ -51,19 +51,23 @@ const CommentSpace = () => {
     return null;
   }
   return (
-    <div className="quotes">
-      {
-        quote.map((x) => <p key={0}>{x.quote}</p>)
-      }
-      {
-        quote.map((x) => (
-          <p className="author" key={0}>
-            -&nbsp;
-            {x.author}
-          </p>
-        ))
-      }
+    <div className="quoteWrapper">
+
+      <div className="quotes">
+        {
+          quote.map((x) => <p key={0}>{x.quote}</p>)
+        }
+        {
+          quote.map((x) => (
+            <p className="author" key={0}>
+              -&nbsp;
+              {x.author}
+            </p>
+          ))
+        }
+      </div>
     </div>
+
   );
 };
 
